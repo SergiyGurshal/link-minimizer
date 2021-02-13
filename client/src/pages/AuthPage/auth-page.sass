@@ -1,0 +1,74 @@
+.auth-page
+  margin-top: 5%
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+.auth-page_icon-container 
+  background-color: #f48fb2
+  border-radius: 50%
+  padding: 1rem
+  margin-bottom: 1rem
+
+.auth-page_icon
+  width: 2rem
+
+.auth-page_sign-form 
+  display: flex
+  flex-direction: column
+  margin-bottom: 1rem
+
+
+.auth-page_input 
+  background-color: rgba(255, 255, 255, 0)
+  border-style: solid
+  border-width: 1px
+  border-color: grey
+  border-radius: 0.2rem
+  height: 2.2rem
+  width: 25rem
+  margin: 1rem
+  padding: 0.3rem
+  color: white
+  font-family: 'Roboto', sans-serif
+
+.auth-page_input.wrong 
+  outline: none
+  border: 3px solid red
+
+
+.auth-page_input.right 
+  outline: none
+  border: 3px solid green
+
+
+.auth-page_input.wrong:focus 
+  outline: none
+  border: 3px solid red
+
+
+.auth-page_input.right:focus 
+  outline: none
+  border: 3px solid green
+
+
+.auth-page_input::placeholder 
+  color: #a9a9a9
+  font-family: 'Roboto', sans-serif
+
+.auth-page_submit-btn 
+  background-color: #90caf9
+  font-family: 'Roboto', sans-serif
+  font-weight: 500
+  color: #23313c
+  font-size: 0.85rem
+  font-weight: 500
+  margin: 1rem
+  margin-bottom: 0
+  height: 1.7rem
+  border: none
+  border-radius: 0.3rem
+
+  &:focus
+    outline: none
